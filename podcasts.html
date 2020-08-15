@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Movie Star - Cinema HTML Template</title>
+		<title>PODCASTS - CORTA FITA PODCASTS</title>
 		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<link href="css/slick.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,74 +25,45 @@
 		<!-- Wrapper -->
 		<div class="wrapper">
 
-			<!-- Navigation -->
-			<div class="navbar" role="navigation">
-				<!-- Heading -->
-				<div class="heading">
+				<!-- Navigation -->
+				<div class="navbar" role="navigation">
 					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="search">
-									<a href="#">
-										<i class="material-icons">search</i>
-									</a>
-								</div>
-								<div class="tel">
-									<a href="tel:03301234567">
-										<i class="material-icons">phone in talk</i> 0330  123 4567
-									</a>
-								</div>
-							</div>
+						<div class="navbar-header">
+							<a href="index.html" class="logo" title="Craft beer landing page">
+								<img src="images/logo.svg" alt="Craft Beer HTML Template">
+							</a>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar top-bar"></span>
+								<span class="icon-bar middle-bar"></span>
+								<span class="icon-bar bottom-bar"></span>
+							</button>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul id="menu-primary" class="nav navbar-nav">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li class="active">
+									<a href="podcasts.html">PODCASTS</a>
+								</li>
+								<li>
+									<a href="sobre-nos.html">SOBRE NÓS</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 
-				<div class="container">
-					<div class="navbar-header">
-						<a href="index.html" class="logo" title="Movie star landing page">
-							<img src="images/logo.svg" alt="Movie star HTML Template">
-						</a>
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar top-bar"></span>
-							<span class="icon-bar middle-bar"></span>
-							<span class="icon-bar bottom-bar"></span>
-						</button>
-					</div>  
-					<div class="navbar-collapse collapse">
-						<ul id="menu-primary" class="nav navbar-nav">
-							<li>
-									<a href="index.html">Home</a>
-							</li>
-							<li class="active">
-								<a href="whats-on.html">What's on</a>
-							</li>
-							<li>
-								<a href="shortcodes.html">Shortcodes</a>
-							</li>
-							<li class="dropdown">
-								<a href="news.html">News</a>
-								<ul class="dropdown-menu">
-									<li><a href="news-single.html">News single</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
 			<!-- Hero -->
-			<div id="content_hero" style="background-image: url(http://via.placeholder.com/1440x435)">
+			<div id="content_hero" style="background-image: url(https://picsum.photos/1140/435.jpg)">
 				
 				<!-- Content -->
 				<div class="container">
 					<div class="row blurb scrollme animateme" data-when="exit" data-from="0" data-to="1" data-opacity="0" data-translatey="100">
 						<div class="col-md-9">
-							<span class="title">Take a look at</span>
-							<h1>What's on this week</h1>
+							<span class="title">Desbubra</span>
+							<h1>Nossos podcasts</h1>
 						</div>
 					</div>
 				</div>
@@ -105,26 +76,25 @@
 					<div class="col-sm-12">
 
 						<div class="live-search">
-							<input type="text" id="search" placeholder="Type to search">
+							<input type="text" id="search" placeholder="Faça uma busca">
 							<i class="material-icons">search</i>
 						</div>
 
 						<div class="tabs movies">
 							<ul>
-								<li><a href="#mon">Mon</a></li>
-								<li><a href="#tue">Tue</a></li>
-								<li><a href="#wed">Today</a></li>
-								<li><a href="#thu">Thu</a></li>
-								<li><a href="#fri">Fri</a></li>
-								<li><a href="#sat">Sat</a></li>
-								<li><a href="#sun">Sun</a></li>
-								<li class="date"><span>Wednesday, 8 March</span></li>
+								<li class="reset"><a href="#all">TODOS</a></li>
+								<li class="reset"><a href="#drama">DRAMA</a></li>
+								<li class="reset"><a href="#suspense">SUSPENSE</a></li>
+								<li class="reset"><a href="#sciencefiction">FICÇÃO CIENTÍFICA</a></li>
+								<li class="reset"><a href="#horror">TERROR</a></li>
+								<li class="reset"><a href="#comedy">COMÉDIA</a></li>
+								<li class="reset"><a href="#nonfiction">NÃO-FICÇÃO</a></li>
 							</ul>
-							<div id="mon">
+							<div id="all">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -156,7 +126,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -188,7 +158,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -220,7 +190,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -250,11 +220,11 @@
 									</div>
 								</div>
 							</div>
-							<div id="tue">
+							<div id="drama">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -286,7 +256,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -318,7 +288,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -350,7 +320,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -380,11 +350,11 @@
 									</div>
 								</div>
 							</div>
-							<div id="wed">
+							<div id="suspense">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -416,7 +386,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -448,7 +418,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -480,7 +450,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -510,11 +480,11 @@
 									</div>
 								</div>
 							</div>
-							<div id="thu">
+							<div id="sciencefiction">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -546,7 +516,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -578,7 +548,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -610,7 +580,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -640,11 +610,11 @@
 									</div>
 								</div>
 							</div>
-							<div id="fri">
+							<div id="horror">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -676,7 +646,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -708,7 +678,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -740,7 +710,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -770,11 +740,11 @@
 									</div>
 								</div>
 							</div>
-							<div id="sat">
+							<div id="comedy">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -806,7 +776,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -838,7 +808,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -870,7 +840,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -900,11 +870,11 @@
 									</div>
 								</div>
 							</div>
-							<div id="sun">
+							<div id="nonfiction">
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -936,7 +906,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -968,7 +938,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">
@@ -1000,7 +970,7 @@
 								<div class="row movie-tabs">
 									<div class="col-md-2 col-sm-3">
 										<a href="single-movie.html">
-											<img src="http://via.placeholder.com/265x340" alt="Movie title" />
+											<img src="https://picsum.photos/265/340.jpg" alt="Movie title" />
 										</a>
 									</div>
 									<div class="col-md-10 col-sm-9">

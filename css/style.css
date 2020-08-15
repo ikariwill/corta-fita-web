@@ -700,7 +700,7 @@ hr.space-40 {
 .navbar {
     position: absolute;
     z-index: 10;
-    top: 0;
+    top: 10px;
     right: 0;
     left: 0;
 
@@ -1072,8 +1072,6 @@ a.arrow-button:hover {
     overflow: hidden;
 
     margin-bottom: 20px;
-
-    border-radius: 10px;
 }
 
 .slick-slide .movie-poster img {
@@ -1410,7 +1408,6 @@ a.arrow-button:hover {
     margin-bottom: 50px;
     padding: 20px;
 
-    border-radius: 30px 30px 0 0;
     background: #fff;
 }
 
@@ -1419,7 +1416,6 @@ a.arrow-button:hover {
     padding: 10px 20px;
 
     border: solid 1px #d8d8d8;
-    border-radius: 30px;
 }
 
 .live-search input:focus {
@@ -1450,10 +1446,6 @@ a.arrow-button:hover {
     padding-bottom: 0;
 
     border-bottom: none;
-}
-
-.movie-tabs img {
-    border-radius: 10px;
 }
 
 .movie-tabs span.title {
@@ -1521,192 +1513,6 @@ a.arrow-button:hover {
     color: #fff;
     border-radius: 50%;
     background: #4a4a4a;
-}
-
-/* Coming soon slider */
-
-.comingSoon-slides > div {
-    position: static;
-}
-
-.comingSoon-slides .single-slide {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display:         flex;
-
-    height: 0;
-    padding-bottom: 40px;
-
-    opacity: 0;
-
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-            align-items: center;
-}
-
-.comingSoon-slides span.title {
-    color: #e76115;
-}
-
-.comingSoon-slides h3 {
-    font-size: 34px;
-
-    margin-bottom: 0;
-}
-
-.comingSoon-slides .star-rating {
-    margin-right: 8px;
-}
-
-.comingSoon-slides .star-rating i {
-    font-size: 14px;
-
-    width: 14px;
-}
-
-.comingSoon-slides .single-slide p:first-of-type {
-    margin-top: 20px;
-}
-
-.date {
-    font-size: 14px;
-
-    display: inline-block;
-
-    opacity: .75;
-    color: #fff;
-}
-
-.date i {
-    font-size: 14px;
-
-    margin-right: 5px;
-}
-
-.comingSoon-slides .bg {
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-}
-
-.comingSoon-slides .slide-content,
-.comingSoon-slides .slide-video {
-    position: relative;
-    z-index: 1;
-}
-
-.comingSoon-slides .video {
-    position: relative;
-}
-
-.comingSoon-slides .video {
-    display: block;
-
-    -webkit-box-shadow: 0 0 50px 15px rgba(0,0,0,.5);
-       -moz-box-shadow: 0 0 50px 15px rgba(0,0,0,.5);
-            box-shadow: 0 0 50px 15px rgba(0,0,0,.5);
-}
-
-.comingSoon-slides .video i {
-    font-size: 50px;
-    line-height: 75px;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    width: 80px;
-    height: 80px;
-    margin: auto;
-
-    -webkit-transition: all 300ms ease-in-out;
-       -moz-transition: all 300ms ease-in-out;
-            transition: all 300ms ease-in-out;
-    text-align: center;
-    text-indent: 14px;
-
-    color: #fff;
-    border: 2px solid #e76115;
-    border-radius: 50%;
-}
-
-.comingSoon-slides .video:hover i {
-    transform: scale(.9);
-}
-
-.comingSoon-slides a.arrow-button:hover {
-    color: #faa82f;
-}
-
-#comingSoon {
-    padding: 60px 0;
-}
-
-#comingSoon:before {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: -250%;
-
-    display: block;
-
-    width: 500%;
-    height: 100%;
-    padding: 55px 0;
-
-    content: '';
-
-    background: #101010;
-}
-
-#comingSoon div {
-    -webkit-transition: all 300ms ease-in-out;
-       -moz-transition: all 300ms ease-in-out;
-            transition: all 300ms ease-in-out;
-}
-
-#comingSoon .slick-slide:hover {
-    cursor: pointer;
-
-    opacity: 1 !important;
-}
-
-#comingSoon .slick-slide img {
-    border-radius: 10px;
-}
-
-#comingSoon .slick-slide h5 {
-    font-size: 16px;
-
-    overflow: hidden;
-
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 0;
-
-    text-align: center;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-#comingSoon .slick-slide .release-date {
-    font-size: 14px;
-
-    opacity: .5;
-    color: #fff;
-}
-
-.comingSoon-slides .slick-slider {
-    background: #000;
 }
 
 /**  Single gallery  **/
@@ -2382,15 +2188,6 @@ ul.movie-info li i {
     display: none;
 }
 
-/* Map */
-
-#map {
-    height: 450px;
-    margin-bottom: 30px;
-
-    border: 10px solid #fff;
-    border-radius: 30px 30px 0 0;
-}
 
 /**  Form  **/
 
@@ -2797,7 +2594,7 @@ footer .copyright a:hover {
         opacity: 0;
     }
     100% {
-        transform: scale(1)
+        transform: scale(1);
 
         opacity: 1;
     }
